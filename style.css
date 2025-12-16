@@ -67,8 +67,5 @@ body{
     cursor: pointer;
     font-size: 22px;
     font-weight: 300;
-}
-
-.container .fa-solid.fa-bolt-lightning{
-    margin-right: 10px;
+    gap: 10px;
 }
