@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Urbanist" sans-serif;
+    font-family: "Urbanist", sans-serif;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -17,8 +17,21 @@ body{
     max-width: 700px;
 }
 
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+.container h1 span{
+    color: #ff3d00;
+    border-bottom: 4px solid #3f82ff;
+    padding-bottom: 7px;
+    overflow: visible; /* removes the scrollbar */
+}
+
 .display{
-    width: 100;
+    width: 100%;
     margin: 50px 0 30px 0;
     background: #fff;
     color: #333;
@@ -27,27 +40,35 @@ body{
     justify-content: space-between;
     padding: 26px 20px;
     border-radius: 5px;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-.container h1{
-    font-weigth: 500;
-    font-size: 45px;
-}
-
-.container h1 span{
-    color: #ff3d00;
-    border-bottom: 4px solid #3f82ffff;
-    padding-bottom: 7px;
-}
-
-.display .fa-regular.fa-copy{
-    cursor: pointer;
 }
 
 .display input{
     border: 0;
     outline: 0;
     font-size: 24px;
+}
+
+.display .fa-regular.fa-copy{
+    cursor: pointer;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #ff3d00;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.container .fa-solid.fa-bolt-lightning{
+    margin-right: 10px;
 }
